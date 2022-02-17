@@ -1,0 +1,8 @@
+body{
+	background-color:var(--colour-background);
+}
+
+canvas{
+	background-color:hsla(189, 43%, 51%, 0.3);
+}
+

@@ -1,0 +1,36 @@
+:root {
+    /* 
+    --colour-background:hsla(189, 43%, 51%, 0.3);
+    --colour-main:hsla(189, 43%, 51%, 0.3);
+    --colour-head:hsl(230, 100%, 77%);
+    --colour-title:hsl(230, 100%, 77%);
+    --colour-navi:hsl(10, 100%, 77%); 
+    --colour-foot:hsl(130, 100%, 77%);
+    --colour-side:hsl(10, 100%, 77%);
+    */
+/* iColorpalette.com - Autumn Blaze #d9922e */
+/*mono chromatic scheme*/
+    --colour-autumn-10:hsla(35, 69%, 10%,1);
+    --colour-autumn-20:hsla(35, 69%, 20%,1);
+    --colour-autumn-30:hsla(35, 69%, 30%,1);
+    --colour-autumn-40:hsla(35, 69%, 40%,1);
+    --colour-autumn-50:hsla(35, 69%, 50%,1);
+    --colour-autumn-60:hsla(35, 69%, 60%,1);
+    --colour-autumn-70:hsla(35, 69%, 70%,1);
+    --colour-autumn-80:hsla(35, 69%, 80%,1);
+    --colour-autumn-90:hsla(35, 69%, 90%,1);
+/*Analogous Colour Scheme */
+    --colour-analogous-left:hsl(5, 69%, 50%);    
+    --colour-analogous-right:hsl(65, 69%, 50%); 
+
+--colour-complementary-50:hsl(215, 69%, 50%);
+
+    
+    --colour-background:hsl(5, 69%, 20%);
+    --colour-main:hsl(65, 69%, 30%);
+    --colour-head:hsl(35, 69%, 30%);
+    --colour-title:hsl(35, 69%, 77%);
+    --colour-navi:hsl(35, 69%, 50%);
+    --colour-foot:hsl(35, 69%, 77%);
+    --colour-side:hsl(35, 69%, 77%);
+}

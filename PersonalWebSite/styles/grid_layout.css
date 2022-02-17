@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+.page{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(12,100px);
+    grid-template-areas:
+        "head head head head head"
+        "titl titl titl titl side"
+        "navi main main .    side"
+        "navi main main .    side"
+        "navi main main .    side"
+        "navi main main .    side"
+        "navi con1 con2 con3 ."
+        "navi con1 con2 con3 ."
+        "navi con1 con2 con3 ."
+        "navi . . . ."
+        "navi . . . ."
+        "foot foot foot foot foot";
+    grid-gap:1em;
+    height:100vh;
+    }
+
+    .page > header {
+    grid-area: head;
+    background-color: var(--colour-head);
+    }
+    
+    .page .title {
+        grid-area: titl;
+        background-color: var(--colour-title);
+        }
+
+    .page > nav {
+    grid-area: navi;
+    background-color: var(--colour-navi);
+    }
+    
+    .page > main {
+    grid-area: main;
+    background-color: var(--colour-main);
+    }
+    .page .side {
+        grid-area: side;
+        background-color: var(--colour-side);
+        }
+    
+    .page .content-a {
+        grid-area: con1;
+        background-color: var(--colour-side);
+        }
+    .page .content-b {
+        grid-area: con2;
+        background-color: var(--colour-side);
+        }
+    .page .content-c {
+        grid-area: con3;
+        background-color: var(--colour-side);
+        }
+    .page > footer {
+    grid-area: foot;
+    background-color: var(--colour-foot);
+    }
+
+    @media only screen and (max-width:550){
+        .page{
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.4fr 0.4fr 2.2fr repeat(5,1.2fr) 1fr;
+            grid-template-areas:    "head"
+                                    "navi"
+                                    "side"                                   
+                                    "titl"
+                                    "main"
+                                    "con1"
+                                    "con2"
+                                    "con3"
+                                    "foot"
+        }
+    }
